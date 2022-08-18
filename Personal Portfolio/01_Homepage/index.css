@@ -1,0 +1,212 @@
+
+/* Header*/ 
+header {
+    z-index: 1;
+    position : relative !important; 
+    right : 0;
+    left : 0 !important; 
+    display: flex;
+    width: 100%;
+    margin-left: auto;
+    height: px;
+
+
+  }
+
+#backg {
+    background-image: url("../images/art.png");
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+
+}
+
+
+.name {
+    display: flex;
+    justify-content: left;
+    width: 100%;
+    margin-left: auto;
+
+}
+
+.logo {
+    display: flex;
+    justify-content: left;
+    width: 100%;
+    margin-left: auto;
+}
+
+.navigation {
+    /*display: flex;*/
+    margin-left: auto;
+    align-items: center;
+
+}
+
+.alignright {
+    align-items: right; 
+    padding: 5px;
+}
+
+.left {
+    width: 20vw;
+}
+
+.buffer {
+    width: 20vw;
+    background-image: url("C:\Users\lux\Documents\DevProject\resources\images\chiemsee.jpg");
+}
+
+/* About Me*/ 
+
+.about {
+    box-sizing: border-box;
+    padding: 40px;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    /*display: flex;*/
+    justify-content: center;
+}
+
+.about-me-padding {
+
+    padding: 20px;
+}
+
+
+
+/* Intro */ 
+
+.intro {
+    box-sizing: border-box;
+    padding: 40px;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    top: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.top { /* divider*/ 
+    position: relative;
+    top: 20px;
+    border: none;
+    height: 3px;
+    width: 100px;
+    background: rgb(57, 55, 55);
+    margin-bottom: 50px;
+}
+
+/* body*/ 
+/* projects*/
+
+.project{
+    box-sizing: border-box;
+    padding: 40px;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.elements {
+    width: 40%;
+    padding: 20px;
+    text-align: left;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.imagesmall {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Button Start */
+
+.morebutton {
+	background-color: rgb(235, 231, 231);
+	border-radius:25px;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Courier;
+	font-size:12px;
+	padding:5px 10px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #283966;
+}
+.morebutton:hover {
+	background-color:#DBE9EE;;
+}
+.morebutton:active {
+	position:relative;
+	top:1px;
+}
+
+/* Button End*/
+
+
+
+.menu:hover {
+    color: #c4cbcd;
+}
+
+
+
+ /* footer */
+
+footer {
+    background-color: #DBE9EE;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+  }
+  
+.icons {
+    right : 0 !important;   
+    left : 0 !important; 
+    justify-content: center;
+    
+
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 8px;
+}
+
+ul {
+    padding-inline-start: 0px;
+}
+
+hr {
+    position: relative;
+    top: 20px;
+    border: none;
+    height: 3px;
+    width: 50px;
+    background: rgb(57, 55, 55);
+    margin-bottom: 50px;
+}
+
+h2 {
+    font-family: 'Inter';
+}
+
+h4 {
+    font-family: 'Inter';
+}
+
+p {
+    color: #333;
+    font-family: 'Inter';
+    font-size: 12px;
+    
+  }
