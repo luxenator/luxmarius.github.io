@@ -2,10 +2,16 @@ header {
 
     font-size: 45px;
     padding: 10px;
+    font-family: 'Inter';
 }
 
 .subline {
     font-size: 25px;
+    font-family: 'Inter';
+}
+
+img {
+    border-radius: 10%;
 }
 
 
@@ -13,7 +19,7 @@ header {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Inter';
 }
 
 .grid {
@@ -22,7 +28,7 @@ header {
     justify-content: center;
     align-self: center;
     min-height: 100vh;
-    background: #222;
+    background: rgb(255, 255, 255);
 
 }
 
@@ -41,19 +47,19 @@ header {
 
 .container .box {
     color: #929796;
-    background: #333;
+    background: #f2f0ec;
     padding: 20px;
     display: grid;
     font-size: 20px;
     place-items: center;
     text-align: center;
-    color: #fff;
+    color: rgb(112, 112, 112);
     transition: 0.5s;
 }
 
 .container .box:hover {
 
-    background: #e91e63;
+    background: #31AAA3;
 }
 
 .container .box img {
@@ -142,7 +148,7 @@ ul {
 	display:inline-block;
 	cursor:pointer;
 	color:#000000;
-	font-family:Courier;
+	font-family: 'Inter';
 	font-size:12px;
 	padding:5px 10px;
 	text-decoration:none;
