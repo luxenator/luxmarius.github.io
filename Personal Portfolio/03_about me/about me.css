@@ -1,15 +1,23 @@
 
 /* Header*/ 
-header {
-    z-index: 1;
-    position : relative !important; 
-    right : 0;
-    left : 0 !important; 
-    display: flex;
-    width: 100%;
-    margin-left: auto;
+.headline {
 
-  }
+    font-size: 45px;
+    font-family: 'Inter';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter';
+}
+
+.subline {
+    font-size: 25px;
+    font-family: 'Inter';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter';
+}
 
 .video {
 
